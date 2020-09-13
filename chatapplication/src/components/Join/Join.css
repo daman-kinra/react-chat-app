@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Oswald:wght@500&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.joinOuterContainer
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(201, 168, 168);
+}
+.joinInnerContainer
+{
+    height: 400px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 5%;
+    animation: drop 1.5s ease;
+   
+}
+.heading
+{
+    font-size: 50px;
+    font-family: 'Marck Script', cursive;
+    color: rgb(161, 61, 61);
+}
+.joinInput
+{
+    width: 350px;
+    height: 35px;
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 3px;
+    background-color: rgb(201, 168, 168);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+    padding-left: 12px;
+}
+.button
+{
+    height: 35px;
+    width: 350px;
+    margin-top: 20px;
+    background-color: rgb(161, 61, 61);
+    border: 0ch;
+    font-family: 'Marck Script', cursive;
+    font-size: 20px;
+    border-radius: 3px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+}
+.joinInput::placeholder
+{
+    font-family: 'Marck Script', cursive;
+    font-size: 25px;
+}
+@keyframes drop {
+    0%{
+      opacity: 0;
+      transform: translateY(-80px);
+    }
+    100%{
+      opacity: 1;
+      transform: translateY(0px);
+    }
+    
+  }

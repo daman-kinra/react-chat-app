@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Oswald:wght@500&display=swap');
+
+.form {
+    display: flex;
+    border-top: 2px solid #D3D3D3;
+  }
+  
+  .input {
+    border: none;
+    border-radius: 0;
+    padding: 5%;
+    width: 80%;
+    font-size: 1.2em;
+    border-radius: 0 0 0px 10px;
+    background-color: rgb(211, 202, 202);
+  }
+  
+  input:focus, textarea:focus, select:focus{
+    outline: none;
+  }
+  
+  .sendButton {
+    color: black !important;
+    font-family: 'Marck Script', cursive;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 0 0 10px 0;
+    background: rgb(161, 61, 61);
+    padding: 20px;
+    display: inline-block;
+    border: none;
+    width: 20%;
+  }
